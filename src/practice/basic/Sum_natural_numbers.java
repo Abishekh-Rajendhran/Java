@@ -16,10 +16,10 @@ public class Sum_natural_numbers {
 	public static void main(String[] args) {
         Scanner inputs = new Scanner(System.in);
 		
-		System.out.println("Enter number_1 = ");
+		System.out.print("Enter number_1 = ");
 		int A = inputs.nextInt();
 		
-		System.out.println("Enter number_2 = ");
+		System.out.print("Enter number_2 = ");
 		int B = inputs.nextInt();
 		
 		System.out.printf("Sum of natural numbers between %d and %d are %d", A,B,sum(A, B));
