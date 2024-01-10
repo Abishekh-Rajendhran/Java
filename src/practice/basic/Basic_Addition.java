@@ -13,10 +13,10 @@ public class Basic_Addition {
 	public static void main(String[] args) {
 		Scanner inputs = new Scanner(System.in);
 		
-		System.out.println("Enter number_1 = ");
+		System.out.print("Enter number_1 = ");
 		int A = inputs.nextInt();
 		
-		System.out.println("Enter number_2 = ");
+		System.out.print("Enter number_2 = ");
 		int B = inputs.nextInt();
 		
 		System.out.printf("Addition of two numbers %d and %d are %d", A,B,add(A, B));
